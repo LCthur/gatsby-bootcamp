@@ -1,18 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Footer from '../components/footer'
-import Header from '../components/header'
+import Layout from '../components/layout'
+
 
 const About = () => {
     return(
-        <div>
-            <Header />
+        <Layout>
             <h1 className="title"> Loïc Thurre</h1>
             <p>Hey, I'm Loïc a biology student and tech enthusiast</p>
             <Link to="/contact">Me contacter</Link>
-            <Footer />
-        </div>   
+        </Layout>
     )
 }
 
