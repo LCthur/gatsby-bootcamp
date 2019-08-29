@@ -3,15 +3,17 @@ import { Link } from 'gatsby'
 
 const Header = () => {
     return(
-        <div>
+        <header>
             <h1>Loïc Thurre's first gatsby site</h1>
-            <ul>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/blog">Blog</Link></li>  
-                <li><Link to="/">Homepage</Link></li>
-            </ul>
-        </div>
+            <nav>
+                <ul>
+                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/blog">Blog</Link></li>  
+                    <li><Link to="/">Homepage</Link></li>
+                </ul>
+            </nav>
+        </header>
     )
 }
 
